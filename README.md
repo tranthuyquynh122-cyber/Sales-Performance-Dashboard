@@ -13,8 +13,19 @@
 
 ---
 
-## 📌 Background & Overview  
 
+
+
+
+## 📑 Table of Contents
+
+1. 📌 [Background & Overview](#background-overview)
+2. 📂 [Dataset Description & Data Structure](#dataset-description--data-structure)
+3. 📊 [Final Conclusion & Recommendations](#final-conclusion--recommendations)
+
+---
+<a id="background-overview"></a>
+## 📌 Background & Overview
 ### 📖 What is this project about?
 
 This project analyzes **Global Superstore sales data** to help business leaders understand overall performance and make better strategic decisions.
@@ -41,7 +52,8 @@ This project is designed for:
 ✔️ Anyone interested in data-driven business decision making  
 
 ---
-## 📂 Dataset Description & Data Structure  
+<a id="dataset-description--data-structure"></a>
+## 📂 Dataset Description & Data Structure 
 
 ### 📌 Data Source  
 
@@ -460,17 +472,50 @@ Each subsection corresponds to one dashboard page and follows the structure:
 - Return rates represent a hidden cost driver.
 - Data highlights clear optimization opportunities.
 
-### 💡 Strategic Insights
-- Sustainable growth should prioritize profitability over pure sales volume.
-- Market-level differentiation is critical for expansion strategy.
-- Product portfolio optimization strongly impacts margins.
-- Continuous monitoring helps prevent performance decline.
-
-### ✅ Actionable Recommendations
+### ✅ Recommendations
 - Allocate more resources to high-margin and high-growth markets.
 - Scale successful product categories and phase out weak performers.
 - Strengthen return management and quality assurance processes.
 - Use dashboard insights as a recurring decision-support tool.
+
+<a id="final-conclusion--recommendations"></a>
+
+## 📊 Final Conclusion & Recommendations 
+
+Based on the overall analysis and insights derived from the dashboards, the following key conclusions and strategic recommendations are proposed to support **data-driven decision-making** for business leaders.
+
+---
+
+### 📌 Key Takeaways
+
+✅ Business performance shows a stable upward trend, indicating healthy growth and effective overall operations.  
+
+✅ Revenue and profit are highly concentrated in a few key markets, especially APAC and EU, creating both strength and dependency risks.  
+
+✅ Several product categories (such as Phones, Copiers, and Chairs) consistently drive the majority of sales and profit.  
+
+✅ Return rates, although moderate, represent a hidden cost factor that can negatively impact profitability if not monitored closely.  
+
+✅ Performance varies significantly across markets and product groups, highlighting opportunities for optimization and prioritization.
+
+---
+
+### ✅ Recommendations
+
+✔ **Prioritize high-performing markets and categories**  
+Focus investment, marketing, and sales resources on regions and products that consistently deliver high revenue and profit.
+
+✔ **Adopt a profitability-first growth strategy**  
+Shift decision-making from pure sales volume toward margin-based performance to ensure sustainable growth.
+
+✔ **Optimize low-margin and underperforming segments**  
+Review pricing strategies, cost structures, and discount policies in markets or categories with weak profitability.
+
+✔ **Strengthen return rate management**  
+Improve quality control, logistics processes, and customer communication to reduce product returns and protect margins.
+
+✔ **Use dashboards as a recurring decision-support tool**  
+Leverage the Power BI dashboards for monthly or quarterly performance reviews to track trends, risks, and opportunities proactively.
 
 ---
 
