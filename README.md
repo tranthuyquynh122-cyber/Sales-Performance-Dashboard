@@ -404,7 +404,14 @@ DIVIDE(
 ---
 
 
-## **📊 Key Insights & Visualizations  **
+
+
+### 📊 Key Insights & Visualizations
+
+This section highlights the key findings derived from the Power BI dashboards.  
+Each subsection corresponds to one dashboard page and summarizes **observations → insights → recommendations**.
+
+---
 
 This section highlights the key findings derived from the Power BI dashboards.  
 Each subsection corresponds to one dashboard page and summarizes **observations → insights → recommendations**.
