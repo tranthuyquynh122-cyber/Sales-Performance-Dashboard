@@ -1,5 +1,5 @@
-# 📊 Global Superstore Sales Performance Dashboard  
-**Business Performance Analysis for Strategic Decision-Making | Power BI**
+# 📊 Business Performance & Growth Insights for Global Superstore | Power BI
+
 
 ## 📌 Project Overview  
 
