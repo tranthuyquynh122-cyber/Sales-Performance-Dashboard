@@ -1,8 +1,5 @@
 # 📊 Business Performance & Growth Insights for Global Superstore | Power BI
 
-
-## 📌 Project Overview  
-
 **Analyze and evaluate business performance across markets and product categories to support strategic decision-making.**
 
 **Domain:** Retail / E-commerce  
