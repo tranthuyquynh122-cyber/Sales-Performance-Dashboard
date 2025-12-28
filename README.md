@@ -8,7 +8,7 @@
 **Domain:** Retail / E-commerce  
 **Tools:** Power BI, DAX, Excel  
 
-**Author:** Quỳnh Trần  
+**Author:** Tran Thuy Quynh
 **Date:** 2025  
 
 ---
