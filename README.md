@@ -381,7 +381,7 @@ Each subsection corresponds to one dashboard page and follows the structure:
 
 ## 📘 Dashboard 1 — Executive Overview  
 
-![Executive Overview](./images/dashboard_executive_overview.png)
+![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Overview.png)
 
 ### 🔍 Key Observations
 - Overall sales and profit show a steady upward trend over time.
@@ -405,7 +405,7 @@ Each subsection corresponds to one dashboard page and follows the structure:
 
 ## 📘 Dashboard 2 — Market Analysis  
 
-![Market Analysis](./images/dashboard_market_analysis.png)
+![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Product-db.png)
 
 ### 🔍 Key Observations
 - APAC and EU generate the highest total sales and profit.
@@ -428,7 +428,7 @@ Each subsection corresponds to one dashboard page and follows the structure:
 
 ## 📘 Dashboard 3 — Product Performance  
 
-![Product Performance](./images/dashboard_product_performance.png)
+![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Market-db.png)
 
 ### 🔍 Key Observations
 - Categories such as **Phones, Copiers, and Chairs** generate the highest revenue.
@@ -452,7 +452,7 @@ Each subsection corresponds to one dashboard page and follows the structure:
 
 ## 📘 Dashboard 4 — Recommendations & Strategic Insights  
 
-![Recommendations](./images/dashboard_recommendations.png)
+![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/a995575862fa55e50e5b0ecbfcfec3004a38312a/Insight%26recommendation.png)
 
 ### 🔍 Key Observations
 - Growth is concentrated in specific markets and product groups.
