@@ -400,12 +400,14 @@ DIVIDE(
     CALCULATE(COUNTROWS(Fact_Orders), Fact_Orders[Returned] = TRUE()),
     COUNTROWS(Fact_Orders)
 )
-## 📊 Key Insights & Visualizations  
+
+---
+
+## **📊 Key Insights & Visualizations  **
 
 This section highlights the key findings derived from the Power BI dashboards.  
 Each subsection corresponds to one dashboard page and summarizes **observations → insights → recommendations**.
 
----
 
 ## 📘 Dashboard 1 — Executive Overview  
 
