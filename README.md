@@ -376,15 +376,16 @@ EDA helped identify early insights such as:
 Key business metrics were created using DAX to support analysis.
 
 ### Example DAX Measures
-
 ```DAX
 Total Sales = SUM(Fact_Orders[Sales])
 
 Total Profit = SUM(Fact_Orders[Profit])
 
-Profit Margin = DIVIDE([Total Profit], [Total Sales])
+Profit Margin =
+DIVIDE([Total Profit], [Total Sales])
 
-Total Orders = DISTINCTCOUNT(Fact_Orders[Order ID])
+Total Orders =
+DISTINCTCOUNT(Fact_Orders[Order ID])
 
 Sales LY =
 CALCULATE(
@@ -397,9 +398,13 @@ DIVIDE([Total Sales] - [Sales LY], [Sales LY])
 
 Return Rate =
 DIVIDE(
-    CALCULATE(COUNTROWS(Fact_Orders), Fact_Orders[Returned] = TRUE()),
+    CALCULATE(
+        COUNTROWS(Fact_Orders),
+        Fact_Orders[Returned] = TRUE()
+    ),
     COUNTROWS(Fact_Orders)
 )
+
 
 
 
