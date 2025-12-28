@@ -401,43 +401,38 @@ DIVIDE(
     COUNTROWS(Fact_Orders)
 )
 
----
-
-
-
-
-### 📊 Key Insights & Visualizations
-
-This section highlights the key findings derived from the Power BI dashboards.  
-Each subsection corresponds to one dashboard page and summarizes **observations → insights → recommendations**.
 
 ---
 
-This section highlights the key findings derived from the Power BI dashboards.  
-Each subsection corresponds to one dashboard page and summarizes **observations → insights → recommendations**.
+## 📊 Key Insights & Visualizations  
 
+This section summarizes the key findings derived from the Power BI dashboards.  
+Each subsection corresponds to one dashboard page and follows the structure:  
+**Observations → Insights → Recommendations**.
+
+---
 
 ## 📘 Dashboard 1 — Executive Overview  
 
 ![Executive Overview](./images/dashboard_executive_overview.png)
 
 ### 🔍 Key Observations
-- Overall sales and profit show a generally positive trend over time.
+- Overall sales and profit show a steady upward trend over time.
 - Profit margin remains relatively stable across years.
-- Return rate stays within a moderate range but should be monitored.
+- Return rate stays at a moderate level but requires monitoring.
 - A small number of regions contribute the majority of total revenue.
 
 ### 💡 Key Insights
 - Business performance is growing steadily, indicating healthy operations.
-- Revenue concentration suggests dependency on a few high-performing regions.
-- Stable margin indicates cost control is effective overall.
-- Even small increases in return rate may significantly impact profit.
+- Revenue concentration creates dependency on a few high-performing regions.
+- Stable margins suggest effective cost control.
+- Even small increases in return rate can significantly impact profitability.
 
 ### ✅ Recommendations
 - Continue investing in high-performing regions to sustain growth.
-- Track return rate closely as an early warning signal for operational issues.
-- Use YoY growth metrics as a regular executive KPI.
-- Monitor margin trends to prevent profitability erosion.
+- Monitor return rate as an early warning operational KPI.
+- Track YoY growth regularly at the executive level.
+- Review margin trends to prevent long-term profitability erosion.
 
 ---
 
@@ -448,18 +443,18 @@ Each subsection corresponds to one dashboard page and summarizes **observations 
 ### 🔍 Key Observations
 - APAC and EU generate the highest total sales and profit.
 - Some smaller markets show strong growth despite lower absolute revenue.
-- Certain markets exhibit lower profit margins compared to others.
+- Certain markets exhibit relatively low profit margins.
 - Sales performance varies significantly across regions.
 
 ### 💡 Key Insights
-- High-performing markets represent stable revenue pillars.
-- Emerging markets with strong growth rates offer expansion opportunities.
-- Low-margin markets may suffer from pricing pressure or high operational costs.
+- High-performing markets act as stable revenue pillars.
+- Emerging markets with strong growth present expansion opportunities.
+- Low-margin markets may face pricing pressure or high operating costs.
 
 ### ✅ Recommendations
-- Prioritize investment and expansion in high-growth, high-profit markets.
+- Prioritize investment in high-growth and high-profit markets.
 - Review pricing strategies and cost structures in low-margin regions.
-- Use YoY growth as a key indicator for market prioritization.
+- Use YoY growth trends to guide market prioritization.
 - Develop targeted strategies for underperforming markets.
 
 ---
@@ -471,19 +466,19 @@ Each subsection corresponds to one dashboard page and summarizes **observations 
 ### 🔍 Key Observations
 - Categories such as **Phones, Copiers, and Chairs** generate the highest revenue.
 - Some sub-categories achieve high sales but low profit.
-- Return rates differ significantly across product groups.
-- A small number of products account for a large share of profit.
+- Return rates vary significantly across product groups.
+- A small number of products account for a large share of total profit.
 
 ### 💡 Key Insights
-- High-performing categories should be treated as strategic products.
-- Low-margin products may indicate pricing or cost inefficiencies.
-- High return rates can negatively impact overall profitability.
-- Product portfolio performance is uneven and requires prioritization.
+- High-performing categories should be treated as strategic growth drivers.
+- Low-margin products may indicate pricing inefficiencies or high costs.
+- High return rates reduce overall profitability.
+- Product performance is uneven and requires prioritization.
 
 ### ✅ Recommendations
 - Focus marketing and sales efforts on high-profit product categories.
-- Reassess pricing, sourcing, or discount strategies for low-margin items.
-- Improve quality control and logistics for products with high return rates.
+- Reassess pricing, discounting, or sourcing strategies for low-margin items.
+- Improve quality control and logistics for high-return products.
 - Use product-level insights to guide assortment and inventory planning.
 
 ---
@@ -496,29 +491,31 @@ Each subsection corresponds to one dashboard page and summarizes **observations 
 - Growth is concentrated in specific markets and product groups.
 - Profitability varies significantly across segments.
 - Return rates represent a hidden cost driver.
-- Data reveals clear opportunities for optimization.
+- Data highlights clear optimization opportunities.
 
 ### 💡 Strategic Insights
-- Business performance can be improved by focusing on profitable growth rather than volume alone.
-- Market-level differentiation is essential for expansion strategies.
-- Product portfolio optimization has strong impact on margins.
-- Continuous monitoring is required to prevent declining profitability.
+- Sustainable growth should prioritize profitability over pure sales volume.
+- Market-level differentiation is critical for expansion strategy.
+- Product portfolio optimization strongly impacts margins.
+- Continuous monitoring helps prevent performance decline.
 
 ### ✅ Actionable Recommendations
-- Invest more resources in high-margin and high-growth markets.
+- Allocate more resources to high-margin and high-growth markets.
 - Scale successful product categories and phase out weak performers.
-- Introduce tighter return management and quality checks.
-- Use dashboard insights as a recurring decision-support tool for leadership.
+- Strengthen return management and quality assurance processes.
+- Use dashboard insights as a recurring decision-support tool.
 
 ---
 
 📌 **Summary**
 
 This visualization-driven analysis enables decision-makers to:
-- Understand overall business performance at a glance  
+- Quickly understand overall business performance  
 - Identify growth opportunities and risk areas  
 - Make informed, data-driven strategic decisions  
 - Align operations, sales, and strategy using a single source of truth  
+
+
 
 
 
