@@ -371,43 +371,6 @@ EDA helped identify early insights such as:
 
 ---
 
-## 3️⃣ DAX Measures & Business Metrics  
-
-Key business metrics were created using DAX to support analysis.
-
-### Example DAX Measures
-```DAX
-Total Sales = SUM(Fact_Orders[Sales])
-
-Total Profit = SUM(Fact_Orders[Profit])
-
-Profit Margin =
-DIVIDE([Total Profit], [Total Sales])
-
-Total Orders =
-DISTINCTCOUNT(Fact_Orders[Order ID])
-
-Sales LY =
-CALCULATE(
-    [Total Sales],
-    SAMEPERIODLASTYEAR('Date'[Date])
-)
-
-Sales YoY % =
-DIVIDE([Total Sales] - [Sales LY], [Sales LY])
-
-Return Rate =
-DIVIDE(
-    CALCULATE(
-        COUNTROWS(Fact_Orders),
-        Fact_Orders[Returned] = TRUE()
-    ),
-    COUNTROWS(Fact_Orders)
-)
-
-
-
-
 ## 📊 Key Insights & Visualizations  
 
 This section summarizes the key findings derived from the Power BI dashboards.  
