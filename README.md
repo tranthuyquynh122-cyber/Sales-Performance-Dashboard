@@ -1,4 +1,4 @@
-# 📊 Business Performance & Growth Insights for Global Superstore | Power BI
+# 📊Market & Product Performance Analysis for Global Superstore | Power BI
 
 **Analyze and evaluate business performance across markets and product categories to support strategic decision-making.**
 
