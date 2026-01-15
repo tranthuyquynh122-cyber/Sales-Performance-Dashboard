@@ -402,7 +402,6 @@ Each subsection corresponds to one dashboard page and follows the structure:
 - Business performance is growing steadily, indicating healthy operations.
 - Revenue concentration creates dependency on a few high-performing regions.
 - Stable margins suggest effective cost control.
-- Even small increases in return rate can significantly impact profitability.
 
 ### ✅ Recommendations
 - Continue investing in high-performing regions to sustain growth.
