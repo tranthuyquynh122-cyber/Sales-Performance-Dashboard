@@ -1,6 +1,5 @@
-# 📊Market & Product Performance Analysis for Global Superstore | Power BI
+# 📊Sales Performance and Market Expansion Analysis for Global Superstore Retail | Power BI
 
-**Analyze and evaluate business performance across markets and product categories to support strategic decision-making.**
 
 **Domain:** Retail / E-commerce  
 **Tools:** Power BI, DAX, Excel  
@@ -10,32 +9,38 @@
 
 ---
 
-
-
-
-
 ## 📑 Table of Contents
 
-1. 📌 [Background & Overview](#background-overview)
-2. 📂 [Dataset Description & Data Structure](#dataset-description--data-structure)
-3. 📊 [Final Conclusion & Recommendations](#final-conclusion--recommendations)
+1. [📌 Background & Overview](#-background--overview)  
+2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)  
+3. [🧠 Design Thinking Process](#-design-thinking-process)  
+4. [📊 Key Insights & Visualizations](#-key-insights--visualizations)  
+5. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)
 
 ---
-<a id="background-overview"></a>
+<a id="background--overview"></a>
 ## 📌 Background & Overview
 ### 📖 What is this project about?
 
-This project analyzes **Global Superstore sales data** to help business leaders understand overall performance and make better strategic decisions.
+This project analyzes **sales performance and market expansion opportunities** for a global retail business using **Power BI**.
 
-The dashboard focuses on answering key business questions such as:
+The core business question addressed in this project is:
 
-- How is the company performing in terms of sales and profit?
-- Which markets contribute the most to revenue and profitability?
-- Which product categories drive business growth?
-- Where are potential risks such as low margin or high return rates?
-- How should management prioritize expansion and optimization efforts?
+> **Which markets and product categories should the business prioritize to grow sustainably and profitably?**
 
-The goal is to transform raw transactional data into **clear, actionable insights** that support executive-level decision-making.
+While overall revenue is increasing, the **quality of growth** varies significantly across markets and product categories:
+
+- Profitability differs widely despite similar sales volumes  
+- Strong sales growth does not always translate into higher profit due to margin pressure and product returns  
+- Some fast-growing segments carry higher operational and profitability risks  
+
+This project aims to help decision-makers:
+
+- Understand **where revenue and profit are truly generated**
+- Identify **high-growth but high-risk markets and product segments**
+- Allocate resources more effectively between **volume-driven** and **profit-driven** areas  
+
+✔ **The final output** is an **executive-level Power BI dashboard** that transforms raw sales data into **clear, actionable insights** to support strategic and data-driven decision-making.
 
 ---
 
@@ -69,22 +74,11 @@ This structure supports efficient analysis and aggregation in Power BI.
 
 ---
 
-### 1️⃣ Tables Used  
-
-The project uses the following tables:
-
-- **Fact_Orders** (main fact table)  
-- **Product**  
-- **Customer**  
-- **People**  
-- **Returns**  
-- **Date**
-
----
-
 ## 📘 Table Schema & Sample Structure  
 
 ### 🔹 Fact_Orders (Main Fact Table)
+<details>
+<summary><b>🔹Fact_Orders/b></summary>
 
 This table contains transaction-level sales data and serves as the core of all calculations.
 
@@ -184,346 +178,212 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 <img width="572" height="514" alt="image" src="https://github.com/user-attachments/assets/cb506d09-274b-4def-9368-fd211c676fa4" />
 
-
+<a id="design-thinking-process"></a>
 ## 🧠 Design Thinking Process  
+<img width="1266" height="708" alt="image" src="https://github.com/user-attachments/assets/45a59d17-a5b2-4f83-b710-32864c19f1df" />
+<img width="1242" height="690" alt="image" src="https://github.com/user-attachments/assets/1a38825a-df51-4971-a915-1df6aef350f4" />
+<img width="1160" height="355" alt="image" src="https://github.com/user-attachments/assets/2ab0a45e-96c8-40f9-a557-bcac163d3580" />
+<img width="1214" height="674" alt="image" src="https://github.com/user-attachments/assets/6cf83b55-6093-4f96-a8b3-d24f015f6028" />
+<img width="1271" height="703" alt="image" src="https://github.com/user-attachments/assets/f2cac882-1fe1-4b8a-940f-9a2cd7a8e273" />
+<img width="1219" height="599" alt="image" src="https://github.com/user-attachments/assets/4bb9165b-d804-41ab-9f9c-13a110e6afad" />
+<img width="1221" height="603" alt="image" src="https://github.com/user-attachments/assets/82a78656-f36c-46d1-bfa4-e0f40a09b4c9" />
 
-This project applies a **Design Thinking approach** to ensure the dashboard solves real business problems and delivers actionable insights instead of only displaying metrics.
+<a id="key-insights--visualizations"></a>
+## 📊 Key Insights & Visualizations
 
-The process consists of four main stages:
+## 1️⃣ Dashboard 1 — Executive Overview
 
-1. Empathize  
-2. Define (Point of View)  
-3. Ideate  
-4. Prototype & Review  
+<img width="1147" height="739" alt="image" src="https://github.com/user-attachments/assets/46a00595-9356-415b-8521-1176eb74166f" />
 
----
+### 📌 Analysis 1
 
-## 1️⃣ Empathize  
+#### Observation 
 
-At this stage, we focus on understanding the stakeholder’s needs, goals, and challenges.
+**Overall business performance is strong:**
+- **Total Sales:** $12.64M  
+- **Total Profit:** $1.47M  
+- **Profit Margin:** 12%  
+- **Return Rate:** 4.68%
 
-### 🎯 Target Stakeholder  
-**Senior Manager / Business Leader**
+Sales and profit show a **steady upward trend from 2011 to 2014**, while profit margin remains relatively stable (~11–12%).  
+➡️ This indicates that the business is growing **without significant margin erosion**.
 
-### What the stakeholder wants:
-- A quick and clear overview of overall business performance  
-- Visibility into which markets and products drive revenue and profit  
-- Early signals of risks such as declining margin or high return rates  
-- Data-backed insights to support strategic decisions  
+However, performance is **not evenly distributed**:
+- *Total Sales by Region* shows that revenue is heavily concentrated in a few regions, while several regions contribute marginally.
+- *Total Sales YoY (%) by Market* highlights **Canada** as the fastest-growing market (~59.93% YoY), while **EU** records the lowest growth (~46.98% YoY).
 
-### What the stakeholder sees:
-- Multiple markets and categories with different performance levels  
-- Large volumes of raw data that are difficult to interpret  
-- Performance changes across years  
-
-### Pain Points:
-- No single dashboard showing the full business picture  
-- Hard to identify which markets or products should be prioritized  
-- Difficult to compare performance across regions  
-- Limited visibility into return rate impact  
-
-### Gains (Expected Value):
-- Clear understanding of business health  
-- Easy identification of high-performing and underperforming areas  
-- Faster and more confident decision-making  
-- Actionable insights rather than raw numbers  
+➡️ Growth opportunities exist, but **growth quality and scalability** need deeper validation.
 
 ---
 
-## 2️⃣ Define (Point of View)
+#### Interpretation (Why it matters)
 
-### Problem Statement  
+At the executive level, the key question is not only:
 
-> Senior managers need a clear and intuitive dashboard that shows how sales and profit perform across markets and product categories, so they can prioritize investments, optimize resources, and improve overall business performance.
+> **“Are we growing?”**
 
----
+but more importantly:
 
-### Key Business Questions  
+> **“Where is growth sustainable and profitable for expansion?”**
 
-- How is the company performing overall?  
-- Which markets generate the highest sales and profit?  
-- Which markets show strong growth potential?  
-- Which product categories contribute most to revenue and profit?  
-- Are there markets or products with low margins or high return rates?  
-- Where should management focus next to drive growth?  
-
----
-
-## 3️⃣ Ideate  
-
-Based on the business questions, the following analytical directions were explored:
-
-### Core Analytical Ideas
-
-- Analyze sales, profit, and margin trends over time  
-- Compare performance across markets and regions  
-- Evaluate product categories and sub-categories  
-- Identify high-growth vs low-performing segments  
-- Analyze return rates and their impact on profitability  
-- Highlight opportunities and risks  
+This dashboard confirms:
+- The business is **healthy overall**
+- But expansion decisions cannot rely on topline growth alone due to:
+  - Market concentration risk
+  - Uneven growth quality across regions
 
 ---
 
-### Key Metrics Considered  
+#### Recommendation
 
-- Total Sales  
-- Total Profit  
-- Profit Margin  
-- Total Orders  
-- Return Rate  
-- Sales Year-over-Year (YoY %)  
+- Use **Dashboard 2 and Dashboard 3** to validate growth quality by answering:
+  - Which products truly generate profit (not just sales)?
+  - Which markets combine growth with margin stability?
+- Treat **Return Rate (4.68%)** as an early profit risk signal, especially when scaling fast-growing markets.
 
----
-
-### Dimensions Used for Analysis  
-
-- Time (Year, Month)  
-- Market  
-- Region  
-- Country  
-- Product Category  
-- Sub-category  
-- Customer Segment  
+✅ **Transition to Dashboard 2**  
+Now that overall performance is confirmed as healthy, the next step is to identify **what actually drives profit** and whether growth is coming from *high-quality* or *risky* products.
 
 ---
 
-## 4️⃣ Prototype & Review  
+## 2️⃣ Dashboard 2 — Product Performance
 
-Based on the ideation phase, the dashboard was structured into **four main pages**, each answering a specific business question.
 
-### 📄 Page 1 — Executive Overview  
-Provides a high-level snapshot of overall business performance.
+<img width="1076" height="739" alt="image" src="https://github.com/user-attachments/assets/f51827a4-374d-4791-b0cb-6d823c56caa0" />
 
-Includes:
-- KPI cards (Sales, Profit, Margin, Orders, Return Rate)  
-- Sales & profit trends over time  
-- Regional sales distribution  
-- YoY performance overview  
 
----
+### 📌 Analysis 2
 
-### 📄 Page 2 — Market Analysis  
-Focuses on understanding market-level performance.
+#### Observation 
 
-Includes:
-- Sales, profit, and margin by market  
-- Year-over-year growth comparison  
-- Market ranking  
-- Identification of strong vs weak markets  
+**Sales and profit concentration by Sub-Category is clear:**
+- Top Sales Sub-Categories:
+  - Phones (~$1.71M)
+  - Copiers (~$1.51M)
+  - Chairs (~$1.50M)
+  - Bookcases (~$1.47M)
+  - Storage (~$1.13M)
 
----
+**Profit vs Sales Growth (YoY) bubble chart reveals:**
+- Some sub-categories show **high YoY growth but low profit**, suggesting:
+  - Margin pressure
+  - High operational or logistics cost
+- Other sub-categories deliver **strong profit even with moderate growth**, acting as stable “profit engines”.
 
-### 📄 Page 3 — Product Performance  
-Analyzes performance across product categories and sub-categories.
-
-Includes:
-- Sales & profit by category  
-- Sub-category performance comparison  
-- Distribution of orders and profit  
-- Identification of top and underperforming products  
+The decomposition tree further shows:
+- Revenue is largely driven by the **Consumer segment**
+- **Technology** (especially Phones & Copiers) is a key profit contributor
 
 ---
 
-### 📄 Page 4 — Recommendation & Insights  
-Summarizes key findings and translates insights into actions.
+#### Interpretation (Why it matters)
 
-Includes:
-- Key business insights  
-- Strategic recommendations  
-- Growth opportunities  
-- Risk areas to monitor  
+For market expansion, scaling is risky if growth is driven by:
+- Low-margin products
+- Products with unstable profit performance
 
----
-
-📌 This design thinking process ensures the dashboard is **user-centered, insight-driven, and decision-oriented**, making it suitable for executive-level analysis.
-
-## ⚒️ Main Process  
-
-This section describes how the data was processed, analyzed, and transformed into meaningful dashboards.
+This dashboard highlights that:
+> **Not all revenue is equal**  
+Some products generate sustainable profit, while others inflate sales but add limited business value.
 
 ---
 
-## 1️⃣ Data Cleaning & Preparation  
+#### Recommendation 
 
-Before analysis, the raw dataset was cleaned and structured to ensure accuracy and consistency.
+- Anchor expansion strategy on **profit-driving sub-categories**, not just top-selling ones.
+- Prioritize products with:
+  - Strong profit contribution
+  - Stable margin behavior
+  - Reasonable, sustainable growth
+- For sub-categories with high growth but weak profit, investigate:
+  - Over-discounting strategies
+  - Shipping and logistics cost
+  - Return-related issues
+  - Customer expectation mismatch
 
-### Key data preparation steps:
-
-- Removed invalid or missing records  
-- Standardized date formats  
-- Converted data types (numeric, date, text)  
-- Created calculated columns where necessary  
-- Built relationships between fact and dimension tables  
-- Ensured consistent category and market naming  
-- Validated return flag values  
-
-These steps help ensure reliable calculations and smooth performance in Power BI.
-
----
-
-## 2️⃣ Exploratory Data Analysis (EDA)
-
-Exploratory analysis was conducted to understand overall patterns before building dashboards.
-
-### Key exploration areas:
-
-- Distribution of total sales and profit  
-- Trends over time (yearly performance)  
-- Performance differences across markets  
-- Product category contribution  
-- Return rate behavior  
-
-EDA helped identify early insights such as:
-- Large variation in profitability between markets  
-- Strong performance from a few key product categories  
-- Potential risk areas with high return rates  
+✅ **Transition to Dashboard 3**  
+Once profit-worthy products are identified, the final question becomes:
+> **Which markets should receive investment for expansion—considering growth, profitability, and risk?**
 
 ---
 
-## 📊 Key Insights & Visualizations  
+## 3️⃣ Dashboard 3 — Market Analysis
 
-This section summarizes the key findings derived from the Power BI dashboards.  
-Each subsection corresponds to one dashboard page and follows the structure:  
-**Observations → Insights → Recommendations**.
+<img width="1077" height="743" alt="image" src="https://github.com/user-attachments/assets/094cdfff-ae9f-4a60-8004-43d312ef3577" />
 
----
+### 📌 Analysis 3
 
-## 📘 Dashboard 1 — Executive Overview  
+#### Observation 
 
-![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Overview.png)
+**Market growth performance (YoY):**
+- **Canada:** Highest YoY growth (~59.93%) but very small revenue base (~$0.1M)
+- **APAC:** Large sales (~$3.9M) with healthy growth (~51.76%) → strong scale-growth balance
 
-### 🔍 Key Observations
-- Overall sales and profit show a steady upward trend over time.
-- Profit margin remains relatively stable across years.
-- Return rate stays at a moderate level but requires monitoring.
-- A small number of regions contribute the majority of total revenue.
+**Market profitability view shows:**
+- APAC and EU generate the highest sales and profit, with stable margins around ~12%
+- Some markets (e.g., Africa) experience margin drops to ~7%, indicating instability
 
-### 💡 Key Insights
-- Business performance is growing steadily, indicating healthy operations.
-- Revenue concentration creates dependency on a few high-performing regions.
-- Stable margins suggest effective cost control.
+**Sales Agent leaderboard reveals concentration risk:**
+- One agent contributes a disproportionately large share of revenue (~$2.70M)
+- This suggests dependency risk and uneven sales capability distribution
 
-### ✅ Recommendations
-- Continue investing in high-performing regions to sustain growth.
-- Monitor return rate as an early warning operational KPI.
-- Track YoY growth regularly at the executive level.
-- Review margin trends to prevent long-term profitability erosion.
+**Detailed table highlights hidden risk:**
+- Several market + sub-category combinations show **high return rates**, even when sales are strong
+- These returns can silently erode net profit during expansion
 
 ---
 
-## 📘 Dashboard 2 — Market Analysis  
+#### Interpretation (Why it matters)
 
-![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Product-db.png)
+This dashboard directly informs **market expansion decisions**:
 
-### 🔍 Key Observations
-- APAC and EU generate the highest total sales and profit.
-- Some smaller markets show strong growth despite lower absolute revenue.
-- Certain markets exhibit relatively low profit margins.
-- Sales performance varies significantly across regions.
+- **APAC:** Expansion-ready  
+  ✔ Large revenue base  
+  ✔ Stable margin  
+  ✔ Healthy growth
 
-### 💡 Key Insights
-- High-performing markets act as stable revenue pillars.
-- Emerging markets with strong growth present expansion opportunities.
-- Low-margin markets may face pricing pressure or high operating costs.
+- **Canada:** High-growth but fragile  
+  ✔ Strong momentum  
+  ⚠ Small scale and higher uncertainty
 
-### ✅ Recommendations
-- Prioritize investment in high-growth and high-profit markets.
-- Review pricing strategies and cost structures in low-margin regions.
-- Use YoY growth trends to guide market prioritization.
-- Develop targeted strategies for underperforming markets.
+- **Low-margin markets (e.g., Africa):** High risk  
+  ⚠ Margin volatility signals unresolved operational or pricing issues
+
+Return Rate must be treated as a **core expansion risk factor**, because scaling high-return markets increases cost and reduces net profitability.
 
 ---
 
-## 📘 Dashboard 3 — Product Performance  
+#### Recommendation 
 
-![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/cff2df64e68e3d3bd7ac3bd1fa90abe11e66786b/Market-db.png)
+**Core Expansion (Low Risk, High ROI): APAC, EU**
+- Scale best-performing product bundles (Technology / Phones / Copiers)
+- Increase distribution and marketing investment due to stable profit structure
 
-### 🔍 Key Observations
-- Categories such as **Phones, Copiers, and Chairs** generate the highest revenue.
-- Some sub-categories achieve high sales but low profit.
-- Return rates vary significantly across product groups.
-- A small number of products account for a large share of total profit.
+**Test Expansion (High Growth, Small Base): Canada**
+- Run controlled pilot campaigns:
+  - Focus on top-performing sub-categories only
+  - Enforce strict return monitoring
+- Track margin performance monthly before scaling further
 
-### 💡 Key Insights
-- High-performing categories should be treated as strategic growth drivers.
-- Low-margin products may indicate pricing inefficiencies or high costs.
-- High return rates reduce overall profitability.
-- Product performance is uneven and requires prioritization.
-
-### ✅ Recommendations
-- Focus marketing and sales efforts on high-profit product categories.
-- Reassess pricing, discounting, or sourcing strategies for low-margin items.
-- Improve quality control and logistics for high-return products.
-- Use product-level insights to guide assortment and inventory planning.
+**Fix-then-Grow Markets (Margin Risk): Africa & similar markets**
+- Review pricing and discount strategies
+- Address return drivers (logistics, product expectation)
+- Expand only after margin stabilizes to target range
 
 ---
-
-## 📘 Dashboard 4 — Recommendations & Strategic Insights  
-
-![image alt](https://github.com/tranthuyquynh122-cyber/Sales-Performance-Dashboard/blob/a995575862fa55e50e5b0ecbfcfec3004a38312a/Insight%26recommendation.png)
-
-### 🔍 Key Observations
-- Growth is concentrated in specific markets and product groups.
-- Profitability varies significantly across segments.
-- Return rates represent a hidden cost driver.
-- Data highlights clear optimization opportunities.
-
-### ✅ Recommendations
-- Allocate more resources to high-margin and high-growth markets.
-- Scale successful product categories and phase out weak performers.
-- Strengthen return management and quality assurance processes.
-- Use dashboard insights as a recurring decision-support tool.
-
 <a id="final-conclusion--recommendations"></a>
+## 🔎 Final Conclusion & Recommendations
 
-## 📊 Final Conclusion & Recommendations 
+Based on the insights above, we recommend the **Senior Management / Commercial Strategy Team** to:
 
-Based on the overall analysis and insights derived from the dashboards, the following key conclusions and strategic recommendations are proposed to support **data-driven decision-making** for business leaders.
+### 📌 Key Takeaways 
 
----
-
-### 📌 Key Takeaways
-
-✅ Business performance shows a stable upward trend, indicating healthy growth and effective overall operations.  
-
-✅ Revenue and profit are highly concentrated in a few key markets, especially APAC and EU, creating both strength and dependency risks.  
-
-✅ Several product categories (such as Phones, Copiers, and Chairs) consistently drive the majority of sales and profit.  
-
-✅ Return rates, although moderate, represent a hidden cost factor that can negatively impact profitability if not monitored closely.  
-
-✅ Performance varies significantly across markets and product groups, highlighting opportunities for optimization and prioritization.
+✔️ **Prioritize expansion in APAC (and EU)** where large revenue base and stable margins deliver the highest confidence ROI.  
+✔️ **Treat Canada as a pilot market**, validating profitability and return risk before committing full-scale expansion.  
+✔️ **Avoid expanding in low-margin or unstable markets** (e.g., Africa) until profitability issues are resolved.  
+✔️ **Integrate product strategy into market expansion** by scaling only profit-driving sub-categories (Phones, Copiers, Chairs).  
+✔️ **Use Return Rate as a mandatory risk KPI**, alongside Sales, Profit, and YoY Growth, to prevent profit erosion during expansion.
 
 ---
 
-### ✅ Recommendations
-
-✔ **Prioritize high-performing markets and categories**  
-Focus investment, marketing, and sales resources on regions and products that consistently deliver high revenue and profit.
-
-✔ **Adopt a profitability-first growth strategy**  
-Shift decision-making from pure sales volume toward margin-based performance to ensure sustainable growth.
-
-✔ **Optimize low-margin and underperforming segments**  
-Review pricing strategies, cost structures, and discount policies in markets or categories with weak profitability.
-
-✔ **Strengthen return rate management**  
-Improve quality control, logistics processes, and customer communication to reduce product returns and protect margins.
-
-✔ **Use dashboards as a recurring decision-support tool**  
-Leverage the Power BI dashboards for monthly or quarterly performance reviews to track trends, risks, and opportunities proactively.
-
----
-
-📌 **Summary**
-
-This visualization-driven analysis enables decision-makers to:
-- Quickly understand overall business performance  
-- Identify growth opportunities and risk areas  
-- Make informed, data-driven strategic decisions  
-- Align operations, sales, and strategy using a single source of truth  
-
-
-
-
-
+📎 *This project demonstrates how an executive-focused analytics dashboard can support data-driven market expansion and product portfolio optimization decisions.*
