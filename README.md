@@ -176,8 +176,9 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 <img width="572" height="514" alt="image" src="https://github.com/user-attachments/assets/cb506d09-274b-4def-9368-fd211c676fa4" />
 
 <a id="design-thinking-process"></a>
-## 🧠 Design Thinking Process  
-<img width="1266" height="708" alt="image" src="https://github.com/user-attachments/assets/45a59d17-a5b2-4f83-b710-32864c19f1df" />
+## 🧠 Design Thinking Process
+
+<img width="1162" height="655" alt="image" src="https://github.com/user-attachments/assets/6f775abe-81ab-410c-9d97-daf4d6d5d4cf" />
 
 <img width="1242" height="690" alt="image" src="https://github.com/user-attachments/assets/1a38825a-df51-4971-a915-1df6aef350f4" />
 
