@@ -180,11 +180,17 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 <a id="design-thinking-process"></a>
 ## 🧠 Design Thinking Process  
 <img width="1266" height="708" alt="image" src="https://github.com/user-attachments/assets/45a59d17-a5b2-4f83-b710-32864c19f1df" />
+
 <img width="1242" height="690" alt="image" src="https://github.com/user-attachments/assets/1a38825a-df51-4971-a915-1df6aef350f4" />
+
 <img width="1160" height="355" alt="image" src="https://github.com/user-attachments/assets/2ab0a45e-96c8-40f9-a557-bcac163d3580" />
+
 <img width="1214" height="674" alt="image" src="https://github.com/user-attachments/assets/6cf83b55-6093-4f96-a8b3-d24f015f6028" />
-<img width="1271" height="703" alt="image" src="https://github.com/user-attachments/assets/f2cac882-1fe1-4b8a-940f-9a2cd7a8e273" />
+
+<img width="1262" height="700" alt="image" src="https://github.com/user-attachments/assets/8c110058-dd30-400a-805d-c49691881473" />
+
 <img width="1219" height="599" alt="image" src="https://github.com/user-attachments/assets/4bb9165b-d804-41ab-9f9c-13a110e6afad" />
+
 <img width="1221" height="603" alt="image" src="https://github.com/user-attachments/assets/82a78656-f36c-46d1-bfa4-e0f40a09b4c9" />
 
 <a id="key-insights--visualizations"></a>
@@ -239,9 +245,6 @@ This dashboard confirms:
   - Which products truly generate profit (not just sales)?
   - Which markets combine growth with margin stability?
 - Treat **Return Rate (4.68%)** as an early profit risk signal, especially when scaling fast-growing markets.
-
-✅ **Transition to Dashboard 2**  
-Now that overall performance is confirmed as healthy, the next step is to identify **what actually drives profit** and whether growth is coming from *high-quality* or *risky* products.
 
 ---
 
@@ -299,10 +302,6 @@ Some products generate sustainable profit, while others inflate sales but add li
   - Shipping and logistics cost
   - Return-related issues
   - Customer expectation mismatch
-
-✅ **Transition to Dashboard 3**  
-Once profit-worthy products are identified, the final question becomes:
-> **Which markets should receive investment for expansion—considering growth, profitability, and risk?**
 
 ---
 
