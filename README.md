@@ -187,7 +187,7 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 <img width="1214" height="674" alt="image" src="https://github.com/user-attachments/assets/6cf83b55-6093-4f96-a8b3-d24f015f6028" />
 
-<img width="1262" height="700" alt="image" src="https://github.com/user-attachments/assets/8c110058-dd30-400a-805d-c49691881473" />
+<img width="1187" height="677" alt="image" src="https://github.com/user-attachments/assets/13dfb17b-fd1f-4120-b83a-0ac35459810d" />
 
 <img width="1219" height="599" alt="image" src="https://github.com/user-attachments/assets/4bb9165b-d804-41ab-9f9c-13a110e6afad" />
 
