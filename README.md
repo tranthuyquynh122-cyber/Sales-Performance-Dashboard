@@ -78,7 +78,6 @@ This structure supports efficient analysis and aggregation in Power BI.
 
 ### 🔹 Fact_Orders (Main Fact Table)
 <details>
-<summary><b>🔹Fact_Orders/b></summary>
 
 This table contains transaction-level sales data and serves as the core of all calculations.
 
