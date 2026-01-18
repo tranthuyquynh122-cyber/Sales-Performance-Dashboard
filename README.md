@@ -77,6 +77,8 @@ This structure supports efficient analysis and aggregation in Power BI.
 ## 📘 Table Schema & Sample Structure  
 
 ### 🔹 Fact_Orders (Main Fact Table)
+<details>
+<summary><strong>📦 Fact_Orders (Main Fact Table)</strong></summary>
 This table contains transaction-level sales data and serves as the core of all calculations.
 
 | Column Name | Data Type | Description |
@@ -89,7 +91,7 @@ This table contains transaction-level sales data and serves as the core of all c
 | Customer ID | String | Foreign key linking to Customer table |
 | Product ID | String | Foreign key linking to Product table |
 | Returned | Boolean | Indicates whether the order was returned |
-
+</details>
 ---
 
 <details>
