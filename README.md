@@ -107,8 +107,6 @@ Contains information about products and their classifications.
 | Sub-Category | String | Detailed product category |
 
 </details>
-
-
 ---
 
 <details>
