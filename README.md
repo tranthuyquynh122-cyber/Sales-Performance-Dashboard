@@ -197,7 +197,8 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 ## 1️⃣ Dashboard 1 — Executive Overview
 
-<img width="1147" height="739" alt="image" src="https://github.com/user-attachments/assets/46a00595-9356-415b-8521-1176eb74166f" />
+<img width="1097" height="717" alt="image" src="https://github.com/user-attachments/assets/54be4fa3-527f-4e0d-bef5-bd05b9d138ac" />
+
 
 ### 📌 Analysis 1
 
