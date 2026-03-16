@@ -249,8 +249,8 @@ This dashboard confirms:
 
 ## 2️⃣ Dashboard 2 — Product Performance
 
+<img width="1078" height="737" alt="image" src="https://github.com/user-attachments/assets/bc26a559-3c4f-4abc-82c3-313b684915d8" />
 
-<img width="1076" height="739" alt="image" src="https://github.com/user-attachments/assets/f51827a4-374d-4791-b0cb-6d823c56caa0" />
 
 
 ### 📌 Analysis 2
