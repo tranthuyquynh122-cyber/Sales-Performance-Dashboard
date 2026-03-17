@@ -197,23 +197,23 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 This dashboard highlights how revenue growth translates into profitability across different markets.
 
-### Key Observations
+### 🔎 Key Observations
 
-- Canada shows moderate revenue growth (~15–18%) with stable profit margins (~12–14%), indicating balanced performance  
-- APAC contributes a relatively high share of total revenue (~30%) but operates with lower margins (~5–7%)  
-- The US remains the largest market (~35–40% of total revenue) with consistent margins (~10–12%) but slower growth  
+- Canada shows revenue growth of approximately **15–18%**, with relatively stable profit margins around **12–14%**  
+- APAC contributes a large share of total revenue (~30%), but operates at significantly lower margins (~5–7%)  
+- The US remains the largest market (~35–40% of total revenue), with stable margins (~10–12%) but slower growth  
 
-### Interpretation
+### 💡 Interpretation
 
-- Canada demonstrates a strong alignment between revenue growth and profitability, suggesting more sustainable expansion potential  
-- APAC’s growth appears to be driven by lower-margin sales, indicating potential reliance on discounting or less profitable product mix  
-- The US behaves as a mature market, where growth is stabilizing and performance is driven more by operational efficiency than expansion  
+- Canada is the only market where **revenue growth and profitability increase simultaneously**, indicating a more balanced and scalable growth pattern  
+- APAC’s growth is primarily volume-driven, with **lower margin efficiency**, suggesting potential reliance on discounting or less profitable product mix  
+- The US shows characteristics of a **mature market**, where growth is stabilizing and performance is driven more by operational efficiency than expansion  
 
-### Recommendation
+### 🚀 Recommendation
 
-- Prioritize expansion in **Canada**, as it provides the most balanced combination of growth and profitability  
-- Improve margin efficiency in **APAC** before scaling further, focusing on pricing and product mix optimization  
-- Maintain the **US** as a stable revenue base, with emphasis on operational improvements rather than aggressive expansion   
+- **Prioritize Canada as the primary expansion market**, as it offers the most balanced combination of growth and profitability with lower expansion risk  
+- **Delay aggressive expansion in APAC**, and instead focus on improving margin efficiency through pricing and product mix optimization  
+- **Maintain the US as a stable revenue base**, focusing on cost control and operational improvements rather than growth investment
   
 ## 2️⃣ Dashboard 2 — Product Performance
 
@@ -221,25 +221,23 @@ This dashboard highlights how revenue growth translates into profitability acros
 
 This dashboard highlights the gap between revenue growth and actual profit generation across product categories.
 
-### Key Observations
+### 🔎 Key Observations
 
-- Phones and Tables generate high revenue but show a margin gap of approximately 4–6% compared to higher-margin categories  
-- In categories such as Tables, revenue grows rapidly (~8–10%) while profit growth remains limited (~2–3%)  
-- Profit contribution is concentrated in categories like **Copiers and Accessories**, despite their smaller share of total revenue  
+- Categories such as **Phones and Tables generate high revenue**, but show a margin gap of approximately **4–6%** compared to higher-margin categories  
+- In categories like **Tables, revenue growth (~8–10%) does not translate into proportional profit growth (~2–3%)**  
+- Profit contribution is concentrated in categories such as **Copiers and Accessories**, despite their smaller share of total revenue  
 
+### 💡 Interpretation
 
-### Interpretation
+- Revenue growth is partially driven by **low-margin product categories**, indicating that increasing sales volume does not necessarily improve profitability  
+- High-revenue categories such as Phones and Tables are **less efficient in converting sales into profit**, creating a structural gap between growth and value creation  
+- The current product strategy appears to prioritize **volume over margin quality**, which may limit long-term profitability  
 
-- Revenue growth is partially driven by low-margin categories, indicating that higher sales volume does not necessarily translate into higher profitability  
-- High-revenue categories like Phones and Tables are less efficient in profit generation, creating a gap between sales performance and financial outcomes  
-- The business is prioritizing volume growth over margin quality, which may limit long-term profitability  
+### 🚀 Recommendation
 
-
-### Recommendation
-
-- Prioritize **Copiers and Accessories**, as they deliver stronger profit efficiency despite lower revenue share  
-- Re-evaluate pricing, discount strategies, and cost structures for **Tables**, where margin performance is weakest  
-- Shift focus from revenue-driven growth to margin-driven growth to improve overall profitability  
+- **Shift focus toward high-margin categories such as Copiers and Accessories** to improve overall profit efficiency  
+- **Re-evaluate pricing and discount strategies** in low-margin categories like Tables, where profitability is weakest  
+- **Reduce reliance on volume-driven growth**, and align product strategy with margin contribution rather than revenue alone  
 
 ## 3️⃣ Dashboard 3 — Market Analysis
 
@@ -247,68 +245,61 @@ This dashboard highlights the gap between revenue growth and actual profit gener
 
 This dashboard evaluates market expansion opportunities by comparing revenue growth patterns and profit performance.
 
-### Key Observations
+### 🔎 Key Observations
 
-- APAC and EU contribute a large share of total revenue but show slower growth and limited margin improvement  
-- Canada contributes a smaller share of revenue (~5%) but demonstrates higher growth compared to mature markets  
-- Africa shows strong growth potential but with higher volatility in both revenue and profit performance  
+- APAC and EU contribute a large share of total revenue, but show **slower growth and limited margin improvement**  
+- Canada contributes a smaller share of revenue (~5%) but demonstrates **higher growth and more stable profitability**  
+- Africa shows **high growth potential**, but with noticeable volatility in both revenue and profit performance  
 
+### 💡 Interpretation
 
-### Interpretation
+- APAC and EU exhibit characteristics of **mature or saturated markets**, where growth opportunities are limited and margin expansion is constrained  
+- Canada represents a **scalable growth market**, where expansion is supported by both increasing revenue and stable profitability  
+- Africa represents a **high-growth but high-risk market**, where inconsistent performance may impact scalability and predictability  
 
-- APAC and EU exhibit characteristics of mature markets, where revenue is stable but incremental growth and margin expansion are limited  
-- Canada shows a more balanced growth pattern, where revenue expansion is supported by relatively stable profitability  
-- Africa represents a high-growth but high-risk market, where inconsistent performance may impact scalability  
+### 🚀 Recommendation
 
-
-### Recommendation
-
-- Prioritize **Canada** as the primary expansion market due to its balanced growth and profitability profile  
-- Consider **Africa** as a secondary opportunity, focusing on stabilizing performance before scaling  
-- Limit expansion in **APAC and EU**, and instead focus on improving operational efficiency and margin optimization  
-
+- **Prioritize Canada as the primary expansion market**, given its balanced growth and profitability profile  
+- **Consider Africa as a secondary opportunity**, focusing on risk control and performance stabilization before scaling  
+- **Limit expansion in APAC and EU**, and instead focus on improving operational efficiency and margin performance in these markets  
 ---
 <a id="final-conclusion--recommendations"></a>
 ## 🔎 Final Conclusion & Recommendations
 
 ### 📌 Key Conclusion
 
-Canada emerges as the most suitable market for expansion, combining stable profitability with consistent revenue growth.
+- Canada emerges as the most suitable market for expansion, as it is the only market where **revenue growth is consistently supported by stable profitability**  
+- Across markets and product categories, the analysis indicates that **not all revenue growth translates into profit**, highlighting a structural gap between volume and value creation  
+- Sustainable expansion should therefore be driven by **profitability and margin quality**, rather than revenue growth alone  
 
-Overall, not all revenue growth translates into sustainable profitability, and expansion decisions should prioritize margin quality over volume.
+## 🎯 Strategic Recommendations
 
-### 🎯 Strategic Recommendations
+1. **Prioritize expansion in Canada**
+   - Focus investment on markets where growth and profitability are aligned  
+   - Scale operations in a controlled manner to maximize return on expansion  
 
-1. **Prioritize expansion in Canada**  
-   - Balanced growth (~15–18%) and stable margins (~12–14%)  
-   - Lower risk of scaling unprofitable revenue  
-
-2. **Improve margin efficiency in APAC before scaling**  
+2. **Improve margin efficiency in APAC before scaling**
    - Optimize pricing, discount strategies, and product mix  
    - Avoid scaling low-margin, volume-driven growth  
 
-3. **Maintain the US as a stable revenue base**  
-   - Focus on operational efficiency and margin optimization  
-   - Not a priority for aggressive expansion  
+3. **Maintain the US as a stable revenue base**
+   - Focus on operational efficiency and cost optimization  
+   - Position the US as a cash-generating market rather than a growth driver  
 
-4. **Shift focus from revenue to profit quality**  
+4. **Shift focus from revenue growth to profit quality**
    - Track profit margin alongside revenue KPIs  
-   - Align growth strategy with profitability goals  
+   - Align growth strategy with long-term profitability goals  
 
-5. **Align product strategy with profitability goals**  
-   - Prioritize high-margin categories such as **Copiers and Accessories**  
-   - Reassess low-margin categories like **Tables and Bookcases**  
+5. **Align product strategy with profitability**
+   - Prioritize high-margin categories such as Copiers and Accessories  
+   - Reassess low-margin categories like Tables and Bookcases  
 
 ---
 
-### 🚀 Business Impact
+## 📈 Business Impact
 
-By prioritizing expansion in markets where growth is supported by profitability:
+- Reduce the risk of scaling markets that increase revenue but dilute overall profitability  
+- Improve profit efficiency by focusing on high-margin products and markets  
+- Enable more effective resource allocation by prioritizing stable and scalable opportunities  
+- Build a more sustainable growth strategy by shifting from volume-driven to value-driven expansion  
 
-- The business can avoid scaling low-margin markets that increase revenue but dilute overall profitability  
-
-- Improve profit efficiency by focusing on segments and markets that generate higher value per transaction, without increasing operational complexity  
-
-- Enable more effective resource allocation by directing investment toward markets and products with stable and predictable returns  
-
-- Build a more sustainable growth strategy by shifting from volume-driven expansion to margin-supported value creation  
