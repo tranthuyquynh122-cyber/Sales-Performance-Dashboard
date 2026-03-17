@@ -20,47 +20,34 @@
 ---
 <a id="background--overview"></a>
 ## 📌 Background & Overview
+
 ### 📖 What is this project about?
 
-This project builds a Power BI dashboard using the **Global Superstore Sales dataset**, including transactions (Orders), sales representatives (People), and product returns (Returns).  
+This project analyzes sales performance and market expansion opportunities for a global retail business using the Global Superstore dataset.
 
-The objective is to provide senior management with data-driven insights to evaluate **business performance, market efficiency, and growth opportunities**, with a focus on supporting strategic decisions around market expansion and profitability.  
+The objective of this project is to identify which markets should be prioritized for expansion based on both revenue growth and profitability.
 
-The analysis aims to:  
+The analysis focuses on:
 
-- Assess **current business performance** across markets, products, and sales channels  
-- Identify **which markets deliver sustainable growth vs. revenue driven by low-margin strategies**  
-- Determine **priority markets for expansion** to improve both revenue and ROI  
-- Highlight **strategic product categories** that contribute to long-term performance  
-- Support more **data-driven decision-making** by balancing growth, profitability, and operational efficiency
+- Evaluating market performance across revenue, growth, and profitability  
+- Identifying markets where revenue growth does not translate into profit  
+- Determining the most suitable markets for expansion  
 
-### 🎯 Project Outcome  
+### 🎯 Project Outcome
 
-The project delivers an interactive dashboard that enables stakeholders to:  
+The project delivers an interactive dashboard that enables stakeholders to:
 
-- Monitor performance across key markets, products, and sales teams  
-- Identify markets with **high growth potential and stable profitability**  
-- Detect markets where revenue growth is **not translating into profit**  
+- Identify markets with sustainable and profitable growth  
+- Detect inefficiencies where revenue growth does not translate into profit  
+- Support expansion decisions based on profitability, not just revenue  
 
----
+### 👥 Who is this project for?
 
-### 👤 Who is this project for?  
+This project is designed for:
 
-✔️ Data analysts and business analysts seeking actionable and decision-oriented insights  
-
-✔️ Marketing and sales teams focusing on product performance and market growth  
-
-✔️ Route-to-market teams aiming to optimize distribution strategies and expand market reach  
-
----
-
-### ❓ Business Questions  
-
-✔️ What is the current performance of Superstore across markets and product categories?  
-
-✔️ Which markets should Superstore prioritize for expansion to achieve sustainable revenue growth and improved ROI?  
-
-✔️ Which product categories should be prioritized to support long-term business growth?  
+- Business leaders and decision-makers evaluating market expansion strategies  
+- Data analysts seeking to translate data into actionable business insights  
+- Sales and marketing teams optimizing product and market performance  
 
 ---
 <a id="dataset-description--data-structure"></a>
@@ -285,9 +272,8 @@ This dashboard evaluates market expansion opportunities by comparing revenue gro
 ## 🔎 Final Conclusion & Recommendations
 
 ### 📌 Key Conclusion
-### Key Conclusion
 
-Canada should be selected as the **primary market for expansion**, as it offers the most balanced combination of revenue growth and profitability.
+Canada emerges as the most suitable market for expansion, combining stable profitability with consistent revenue growth.
 
 Overall, not all revenue growth translates into sustainable profitability, and expansion decisions should prioritize margin quality over volume.
 
