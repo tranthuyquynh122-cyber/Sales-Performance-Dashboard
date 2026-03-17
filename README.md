@@ -32,7 +32,15 @@ The analysis aims to:
 - Identify **which markets deliver sustainable growth vs. revenue driven by low-margin strategies**  
 - Determine **priority markets for expansion** to improve both revenue and ROI  
 - Highlight **strategic product categories** that contribute to long-term performance  
-- Support more **data-driven decision-making** by balancing growth, profitability, and operational efficiency  
+- Support more **data-driven decision-making** by balancing growth, profitability, and operational efficiency
+
+### 🎯 Project Outcome  
+
+The project delivers an interactive dashboard that enables stakeholders to:  
+
+- Monitor performance across key markets, products, and sales teams  
+- Identify markets with **high growth potential and stable profitability**  
+- Detect markets where revenue growth is **not translating into profit**  
 
 ---
 
