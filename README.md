@@ -365,24 +365,21 @@ This suggests that future improvement depends on **optimizing efficiency rather 
 
 ## 🚀Recommendations
 
-###  Prioritize Expansion into High-Growth Markets
+### 🔴 Prioritize Expansion into High-Growth Markets
 
-The business should focus expansion efforts on **high-growth, underpenetrated markets rather than already saturated regions.**
+Based on the analysis, **Canada should be prioritized as the primary expansion market**, supported by selective expansion in Africa.
+
+The business should focus expansion efforts on high-growth, underpenetrated markets rather than already saturated regions.
 
 - **Primary Expansion Market — Canada**  
-  Canada demonstrates strong growth potential with relatively low market saturation.  
-  This makes it the most suitable market for scalable and relatively low-risk expansion.
+  Canada represents the most scalable growth opportunity, where expansion can drive both revenue growth and sustainable profitability.
 
 - **Selective Expansion — Africa**  
   Africa shows promising growth but also carries higher operational and profitability risks.  
-  Expansion should be gradual, with close monitoring of margin performance and operational efficiency.
+  Expansion should be gradual, with strict monitoring of margin performance and operational efficiency.
 
 - **No Expansion Focus — APAC & EU**  
-  These markets are already mature, contributing a large share of total revenue.  
-  The strategic focus should be on **optimizing profitability and operational efficiency rather than further expansion.**
+  These markets are already mature and contribute a large share of total revenue.  
+  The strategic focus should shift toward **optimizing profitability and efficiency rather than further expansion.**
 
-
-### 📌 Strategic Direction
-
-Overall, the business should shift from **scale-driven growth in mature markets** to **profit-driven expansion in high-growth markets**, while maintaining strict control over margin performance and operational risk.
 📎 *This project demonstrates how an executive-focused analytics dashboard can support data-driven market expansion and product portfolio optimization decisions.*
