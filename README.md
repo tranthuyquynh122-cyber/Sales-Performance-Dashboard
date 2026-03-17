@@ -202,13 +202,10 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 ### 📌Analysis 1: Revenue Growth vs Profit Quality
 
 #### Observation
-Total sales increase consistently over time.  
-However, profit fluctuates and does not grow at the same pace.  
-Profit margin remains relatively stable without clear improvement.
+Sales increased from ~$2.3M to ~$4.3M over the period,  while profit remained volatile and did not follow the same growth pattern.
 
 #### Interpretation
-Revenue growth is primarily driven by **increasing sales volume rather than margin improvement**.  
-This indicates that higher sales do not consistently translate into higher profitability.
+Revenue growth is primarily driven by **increasing sales volume rather than margin improvement**.  This indicates that higher sales do not consistently translate into higher profitability.
 
 #### Recommendation
 - Track **profit margin alongside revenue growth** to assess performance quality  
@@ -220,8 +217,7 @@ This indicates that higher sales do not consistently translate into higher profi
 ### 📌Analysis 2: Market Structure — Core vs Emerging Markets
 
 #### Observation
-APAC and EU contribute the majority of total revenue.  
-Canada and Africa operate at a smaller scale but show higher growth rates.
+APAC and EU together account for the majority of total revenue,  while Canada contributes less than 5% despite higher growth rates.
 
 #### Interpretation
 Markets are at different stages:
@@ -256,7 +252,7 @@ Even small percentages can significantly impact profitability at scale.
 ### 📌 Analysis 1: Product Revenue Concentration
 
 #### Observation
-Sales are concentrated in a few sub-categories such as **Phones, Copiers, and Chairs**.
+Phones and Copiers generate the highest sales (~$1.5M–$1.7M each),  indicating concentration in a small number of product categories.
 
 #### Interpretation
 Revenue dependency is concentrated in a limited number of products rather than evenly distributed.
@@ -274,8 +270,7 @@ Revenue dependency is concentrated in a limited number of products rather than e
 Some products generate high sales but do not contribute proportionally to profit.
 
 #### Interpretation
-High sales volume does not necessarily indicate high business value.  
-Profitability varies due to margin differences across products.
+High sales volume does not necessarily indicate high business value. Profitability varies due to margin differences across products.
 
 #### Recommendation
 - Evaluate products based on **profit contribution, not only revenue**  
@@ -288,8 +283,7 @@ Profitability varies due to margin differences across products.
 Some sub-categories show strong sales growth but relatively lower profit contribution.
 
 #### Interpretation
-Growth and profitability are not always aligned.  
-Scaling high-growth products may not improve overall performance.
+Growth and profitability are not always aligned. Scaling high-growth products may not improve overall performance.
 
 #### Recommendation
 - Combine **growth and margin metrics** in product evaluation  
@@ -304,7 +298,7 @@ Scaling high-growth products may not improve overall performance.
 ### 📌 Analysis 1: Market Maturity — Scale vs Growth Trade-off
 
 #### Observation
-APAC and EU maintain high revenue with stable growth.  
+APAC and EU maintain high revenue with stable growth. 
 Canada and Africa show higher growth but operate at smaller scale.
 
 #### Interpretation
@@ -325,7 +319,7 @@ The business operates across:
 Markets with similar revenue levels show different profit margins.
 
 #### Interpretation
-Revenue alone does not reflect performance quality.  
+Revenue alone does not reflect performance quality. 
 Profitability is influenced by cost structure and product mix in each market.
 
 #### Recommendation
