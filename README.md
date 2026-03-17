@@ -195,6 +195,7 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 <img width="1097" height="717" alt="image" src="https://github.com/user-attachments/assets/54be4fa3-527f-4e0d-bef5-bd05b9d138ac" />
 
+
 This dashboard highlights how revenue growth translates into profitability across different markets.
 
 ### 🔎 Key Observations
@@ -219,6 +220,7 @@ This dashboard highlights how revenue growth translates into profitability acros
 
 <img width="1078" height="737" alt="image" src="https://github.com/user-attachments/assets/bc26a559-3c4f-4abc-82c3-313b684915d8" />
 
+
 This dashboard highlights the gap between revenue growth and actual profit generation across product categories.
 
 ### 🔎 Key Observations
@@ -242,6 +244,7 @@ This dashboard highlights the gap between revenue growth and actual profit gener
 ## 3️⃣ Dashboard 3 — Market Analysis
 
 <img width="1077" height="743" alt="image" src="https://github.com/user-attachments/assets/094cdfff-ae9f-4a60-8004-43d312ef3577" />
+
 
 This dashboard evaluates market expansion opportunities by comparing revenue growth patterns and profit performance.
 
