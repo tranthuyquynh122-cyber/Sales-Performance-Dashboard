@@ -202,108 +202,59 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 ### 📌 Analysis 1
 
-#### Observation 
+**Observation**
 
-**Overall business performance is strong:**
-- **Total Sales:** $12.64M  
-- **Total Profit:** $1.47M  
-- **Profit Margin:** 12%  
-- **Return Rate:** 4.68%
+The business generated substantial revenue and profit while maintaining a relatively stable profit margin over time. Sales and profit both show consistent growth across years, indicating that the company is expanding without significant margin deterioration.
 
-Sales and profit show a **steady upward trend from 2011 to 2014**, while profit margin remains relatively stable (~11–12%).  
-➡️ This indicates that the business is growing **without significant margin erosion**.
+However, revenue distribution is uneven across regions, with a limited number of markets contributing a disproportionate share of total sales. At the same time, growth rates differ significantly between markets, suggesting that expansion momentum is not evenly distributed.
 
-However, performance is **not evenly distributed**:
-- *Total Sales by Region* shows that revenue is heavily concentrated in a few regions, while several regions contribute marginally.
-- *Total Sales YoY (%) by Market* highlights **Canada** as the fastest-growing market (~59.93% YoY), while **EU** records the lowest growth (~46.98% YoY).
+**Interpretation**
 
-➡️ Growth opportunities exist, but **growth quality and scalability** need deeper validation.
+Although overall performance appears stable, the business is structurally dependent on a small number of revenue-driving markets. This creates concentration risk, where future growth becomes vulnerable if key markets slow down.
 
----
+Additionally, high growth in smaller markets may reflect early-stage expansion rather than scalable opportunities, meaning not all growth signals are equally reliable.
 
-#### Interpretation (Why it matters)
+**Business Impact**
 
-At the executive level, the key question is not only:
+Strategic decisions should move beyond tracking total revenue growth and instead evaluate **growth quality**, focusing on whether markets can sustain expansion without weakening profitability.
 
-> **“Are we growing?”**
+**Recommendation**
 
-but more importantly:
-
-> **“Where is growth sustainable and profitable for expansion?”**
-
-This dashboard confirms:
-- The business is **healthy overall**
-- But expansion decisions cannot rely on topline growth alone due to:
-  - Market concentration risk
-  - Uneven growth quality across regions
-
----
-
-#### Recommendation
-
-- Use **Dashboard 2 and Dashboard 3** to validate growth quality by answering:
-  - Which products truly generate profit (not just sales)?
-  - Which markets combine growth with margin stability?
-- Treat **Return Rate (4.68%)** as an early profit risk signal, especially when scaling fast-growing markets.
-
----
+- Prioritize evaluating markets based on **profitability and scalability**, not just growth rate.  
+- Identify over-reliance on top-performing markets and explore diversification opportunities.  
+- Use Return Rate and Profit Margin as early indicators to assess whether growth is sustainable.  
 
 ## 2️⃣ Dashboard 2 — Product Performance
 
 <img width="1078" height="737" alt="image" src="https://github.com/user-attachments/assets/bc26a559-3c4f-4abc-82c3-313b684915d8" />
 
-
-
 ### 📌 Analysis 2
 
-#### Observation 
+**Observation**
 
-**Sales and profit concentration by Sub-Category is clear:**
-- Top Sales Sub-Categories:
-  - Phones (~$1.71M)
-  - Copiers (~$1.51M)
-  - Chairs (~$1.50M)
-  - Bookcases (~$1.47M)
-  - Storage (~$1.13M)
+Sales performance is concentrated within a limited number of sub-categories, indicating that revenue generation relies heavily on a small portion of the product portfolio.
 
-**Profit vs Sales Growth (YoY) bubble chart reveals:**
-- Some sub-categories show **high YoY growth but low profit**, suggesting:
-  - Margin pressure
-  - High operational or logistics cost
-- Other sub-categories deliver **strong profit even with moderate growth**, acting as stable “profit engines”.
+However, comparing profit and sales growth across sub-categories reveals a mismatch. Some products contribute significantly to revenue but generate relatively limited profit, while others maintain stable profitability even without aggressive growth.
 
-The decomposition tree further shows:
-- Revenue is largely driven by the **Consumer segment**
-- **Technology** (especially Phones & Copiers) is a key profit contributor
+In addition, revenue is largely driven by specific customer segments, and certain product categories—particularly within technology—play a central role in overall profit generation.
 
----
+**Interpretation**
 
-#### Interpretation (Why it matters)
+Not all revenue contributes equally to business value. Products that generate high sales but low profit may create operational pressure without improving financial performance.
 
-For market expansion, scaling is risky if growth is driven by:
-- Low-margin products
-- Products with unstable profit performance
+This suggests that the current growth model may partially rely on volume-driven products rather than profit-driven ones, which can limit long-term scalability.
 
-This dashboard highlights that:
-> **Not all revenue is equal**  
-Some products generate sustainable profit, while others inflate sales but add limited business value.
+**Business Impact**
 
----
+Expansion strategies should be aligned with **profit-generating products rather than high-volume products**. Scaling markets based on low-margin products may increase revenue while diluting overall profitability.
 
-#### Recommendation 
+**Recommendation**
 
-- Anchor expansion strategy on **profit-driving sub-categories**, not just top-selling ones.
-- Prioritize products with:
-  - Strong profit contribution
-  - Stable margin behavior
-  - Reasonable, sustainable growth
-- For sub-categories with high growth but weak profit, investigate:
-  - Over-discounting strategies
-  - Shipping and logistics cost
-  - Return-related issues
-  - Customer expectation mismatch
+- Focus expansion on **sub-categories with stable profit contribution**, not just high sales volume.  
+- Review pricing, discounting, and cost structure for products with high sales but low profit.  
+- Monitor product-level return rates to identify items that negatively impact profitability.  
+- Align product strategy with expansion strategy to ensure revenue growth translates into profit growth.  
 
----
 
 ## 3️⃣ Dashboard 3 — Market Analysis
 
@@ -311,62 +262,30 @@ Some products generate sustainable profit, while others inflate sales but add li
 
 ### 📌 Analysis 3
 
-#### Observation 
+**Observation**
 
-**Market growth performance (YoY):**
-- **Canada:** Highest YoY growth (~59.93%) but very small revenue base (~$0.1M)
-- **APAC:** Large sales (~$3.9M) with healthy growth (~51.76%) → strong scale-growth balance
+Market performance shows clear differences in scale, growth, and profitability. Some markets combine strong revenue contribution with stable margins, while others exhibit rapid growth but operate from a relatively small revenue base.
 
-**Market profitability view shows:**
-- APAC and EU generate the highest sales and profit, with stable margins around ~12%
-- Some markets (e.g., Africa) experience margin drops to ~7%, indicating instability
+In addition, certain markets display signs of margin instability, suggesting potential inefficiencies in pricing, cost structure, or operations. Return rate patterns further highlight that some market–product combinations carry higher operational risk.
 
-**Sales Agent leaderboard reveals concentration risk:**
-- One agent contributes a disproportionately large share of revenue (~$2.70M)
-- This suggests dependency risk and uneven sales capability distribution
+Sales performance is also unevenly distributed among sales agents, indicating dependency on a limited number of high-performing individuals.
 
-**Detailed table highlights hidden risk:**
-- Several market + sub-category combinations show **high return rates**, even when sales are strong
-- These returns can silently erode net profit during expansion
+**Interpretation**
 
----
+Market expansion should not be driven by growth alone. Markets with high growth but low scale may not generate meaningful financial impact, while markets with unstable margins may reduce overall profitability when scaled.
 
-#### Interpretation (Why it matters)
+A sustainable expansion strategy requires balancing revenue scale, margin stability, and operational risk.
 
-This dashboard directly informs **market expansion decisions**:
+**Business Impact**
 
-- **APAC:** Expansion-ready  
-  ✔ Large revenue base  
-  ✔ Stable margin  
-  ✔ Healthy growth
+Expanding into markets without stable profitability may increase sales volume while reducing overall business efficiency. Conversely, focusing on markets that combine scale and margin stability increases the likelihood of generating consistent and scalable profit growth.
 
-- **Canada:** High-growth but fragile  
-  ✔ Strong momentum  
-  ⚠ Small scale and higher uncertainty
+**Recommendation**
 
-- **Low-margin markets (e.g., Africa):** High risk  
-  ⚠ Margin volatility signals unresolved operational or pricing issues
-
-Return Rate must be treated as a **core expansion risk factor**, because scaling high-return markets increases cost and reduces net profitability.
-
----
-
-#### Recommendation 
-
-**Core Expansion (Low Risk, High ROI): APAC, EU**
-- Scale best-performing product bundles (Technology / Phones / Copiers)
-- Increase distribution and marketing investment due to stable profit structure
-
-**Test Expansion (High Growth, Small Base): Canada**
-- Run controlled pilot campaigns:
-  - Focus on top-performing sub-categories only
-  - Enforce strict return monitoring
-- Track margin performance monthly before scaling further
-
-**Fix-then-Grow Markets (Margin Risk): Africa & similar markets**
-- Review pricing and discount strategies
-- Address return drivers (logistics, product expectation)
-- Expand only after margin stabilizes to target range
+- Prioritize expansion in markets with **strong revenue base and stable margins**.  
+- Use controlled pilot strategies for high-growth but small-scale markets before full investment.  
+- Address margin instability and return-related issues before scaling in weaker markets.  
+- Reduce dependency on a small number of sales agents by improving distribution of sales performance.  
 
 ---
 <a id="final-conclusion--recommendations"></a>
