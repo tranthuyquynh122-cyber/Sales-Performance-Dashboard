@@ -205,10 +205,10 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 Sales increased from ~$2.3M to ~$4.3M over the period,  while profit remained volatile and did not follow the same growth pattern.
 
 #### Interpretation
-Revenue growth is primarily driven by **increasing sales volume rather than margin improvement**.  This indicates that higher sales do not consistently translate into higher profitability.
+Revenue growth appears to be volume-driven rather than margin-driven, suggesting that the business may face scalability limitations if cost and pricing structures are not optimized.
 
 #### Recommendation
-- Track **profit margin alongside revenue growth** to assess performance quality  
+- Implement margin-based performance tracking at product and market levels to ensure that revenue growth translates into sustainable profitability. 
 - Review **pricing, discounting, and cost structure**  
 - Shift focus from **volume growth → profit efficiency**
 
@@ -363,41 +363,26 @@ This suggests that future improvement depends on **optimizing efficiency rather 
 
 ---
 
-### 🚀 Recommendations
+## 🚀Recommendations
 
-#### 1. Shift from Volume Growth to Profit Efficiency
-- Track **profit margin alongside revenue growth**
-- Review pricing, discounting, and cost structure at product level
-- Prioritize **profit contribution over sales volume**
+###  Prioritize Expansion into High-Growth Markets
 
----
+The business should focus expansion efforts on **high-growth, underpenetrated markets rather than already saturated regions.**
 
-#### 2. Differentiate Market Strategy by Maturity
-- Maintain stability in **core markets (APAC, EU)**
-- Expand selectively in **emerging markets (Canada, Africa)**
-- Align resource allocation with **market scale and growth stage**
+- **Primary Expansion Market — Canada**  
+  Canada demonstrates strong growth potential with relatively low market saturation.  
+  This makes it the most suitable market for scalable and relatively low-risk expansion.
 
----
+- **Selective Expansion — Africa**  
+  Africa shows promising growth but also carries higher operational and profitability risks.  
+  Expansion should be gradual, with close monitoring of margin performance and operational efficiency.
 
-#### 3. Optimize Product Portfolio
-- Focus on products with **balanced sales and margin performance**
-- Re-evaluate sub-categories with high sales but lower profitability
-- Reduce dependency on a limited number of product groups
+- **No Expansion Focus — APAC & EU**  
+  These markets are already mature, contributing a large share of total revenue.  
+  The strategic focus should be on **optimizing profitability and operational efficiency rather than further expansion.**
 
----
 
-#### 4. Improve Sales Contribution Balance
-- Reduce reliance on top-performing sales agents
-- Improve distribution of accounts and workload
-- Standardize sales practices across teams
+### 📌 Strategic Direction
 
----
-
-#### 5. Manage Return-Related Impact
-- Monitor return rate as a **core performance indicator**
-- Identify product categories with higher return frequency
-- Improve product quality and fulfillment accuracy
-
----
-
+Overall, the business should shift from **scale-driven growth in mature markets** to **profit-driven expansion in high-growth markets**, while maintaining strict control over margin performance and operational risk.
 📎 *This project demonstrates how an executive-focused analytics dashboard can support data-driven market expansion and product portfolio optimization decisions.*
