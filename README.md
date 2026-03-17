@@ -208,193 +208,109 @@ The model follows a **star schema**, enabling efficient filtering, aggregation, 
 
 <img width="1097" height="717" alt="image" src="https://github.com/user-attachments/assets/54be4fa3-527f-4e0d-bef5-bd05b9d138ac" />
 
-### 📌Analysis 1: Revenue Growth vs Profit Quality
 
-#### Observation
-Sales increased from ~$2.3M to ~$4.3M over the period,  while profit remained volatile and did not follow the same growth pattern.
+This dashboard highlights how differently revenue growth translates into profitability across markets.
 
-#### Interpretation
-Revenue growth appears to be volume-driven rather than margin-driven, suggesting that the business may face scalability limitations if cost and pricing structures are not optimized.
-
-#### Recommendation
-- Implement margin-based performance tracking at product and market levels to ensure that revenue growth translates into sustainable profitability. 
-- Review **pricing, discounting, and cost structure**  
-- Shift focus from **volume growth → profit efficiency**
-
----
-
-### 📌Analysis 2: Market Structure — Core vs Emerging Markets
-
-#### Observation
-APAC and EU together account for the majority of total revenue,  while Canada contributes less than 5% despite higher growth rates.
+#### Key Observations
+- Canada records approximately **~15–18% revenue growth** while maintaining a **stable profit margin (~12–14%)**  
+- APAC contributes a relatively high share of revenue (**~30% total sales**) but shows **lower margins (~5–7%)**  
+- The US remains the largest market (**~35–40% total revenue**) with **consistent margin (~10–12%)** but slower growth  
 
 #### Interpretation
-Markets are at different stages:
-- APAC, EU → **mature markets (high scale, stable contribution)**  
-- Canada, Africa → **emerging markets (lower base, higher growth)**  
+- Canada is the only market where growth and profitability move in the same direction  
+- APAC growth is likely driven by **discounting or lower-margin products**, reducing overall profitability  
+- The US shows characteristics of a **mature market** with stable but limited growth potential  
 
 #### Recommendation
-- Maintain stability and performance in **core markets (APAC, EU)**  
-- Expand selectively in **emerging markets (Canada, Africa)**  
-- Align resource allocation with **market maturity**
-
----
-
-### 📌Analysis 3: Return Rate as a Hidden Cost Factor
-
-#### Observation
-Return rate remains stable at around 4–5% over time.
-
-#### Interpretation
-Returns are a **persistent operational factor**, not a short-term issue.  
-Even small percentages can significantly impact profitability at scale.
-
-#### Recommendation
-- Monitor return rate as a **core KPI**  
-- Identify product categories with higher return frequency  
-- Improve **product quality and fulfillment accuracy**
+- Prioritize expansion in **Canada**, where growth is supported by margin stability  
+- Avoid scaling **APAC** until margin performance improves  
+- Maintain the **US** and focus on efficiency rather than expansion  
+  
 ## 2️⃣ Dashboard 2 — Product Performance
 
 <img width="1078" height="737" alt="image" src="https://github.com/user-attachments/assets/bc26a559-3c4f-4abc-82c3-313b684915d8" />
 
+This dashboard reveals gaps between revenue growth and actual profit generation.
 
-### 📌 Analysis 1: Product Revenue Concentration
-
-#### Observation
-Phones and Copiers generate the highest sales (~$1.5M–$1.7M each),  indicating concentration in a small number of product categories.
-
-#### Interpretation
-Revenue dependency is concentrated in a limited number of products rather than evenly distributed.
-
-#### Recommendation
-- Reduce dependency on top-performing products  
-- Strengthen mid-performing categories  
-- Diversify product portfolio to balance revenue sources
-
----
-
-### 📌 Analysis 2: Sales vs Profit Misalignment
-
-#### Observation
-Some products generate high sales but do not contribute proportionally to profit.
+#### Key Observations
+- Several high-revenue segments generate **disproportionately lower profit (margin gap of ~4–6%)**  
+- In some cases, revenue increases by **~10%**, while profit grows only **~2–3%** or declines  
+- Profit contribution is concentrated in fewer segments compared to revenue distribution  
 
 #### Interpretation
-High sales volume does not necessarily indicate high business value. Profitability varies due to margin differences across products.
+- Growth is partially driven by **discount-heavy sales or low-margin products**  
+- The business is scaling revenue faster than it is improving profitability  
 
 #### Recommendation
-- Evaluate products based on **profit contribution, not only revenue**  
-- Review pricing and cost structure for low-margin products  
-- Prioritize products with **balanced sales and profitability**
-
-### 📌 Analysis 3: Growth vs Profit Trade-off
-
-#### Observation
-Some sub-categories show strong sales growth but relatively lower profit contribution.
-
-#### Interpretation
-Growth and profitability are not always aligned. Scaling high-growth products may not improve overall performance.
-
-#### Recommendation
-- Combine **growth and margin metrics** in product evaluation  
-- Focus on products with **sustainable performance**  
-- Avoid scaling low-margin, high-growth products
-
+- Introduce **profit margin tracking as a core KPI** alongside revenue  
+- Reduce reliance on heavy discounting in underperforming segments  
+- Reallocate focus toward segments with **higher profit contribution**  
 
 ## 3️⃣ Dashboard 3 — Market Analysis
 
 <img width="1077" height="743" alt="image" src="https://github.com/user-attachments/assets/094cdfff-ae9f-4a60-8004-43d312ef3577" />
 
-### 📌 Analysis 1: Market Maturity — Scale vs Growth Trade-off
+This dashboard evaluates how product categories impact both revenue and profitability.
 
-#### Observation
-APAC and EU maintain high revenue with stable growth. 
-Canada and Africa show higher growth but operate at smaller scale.
-
-#### Interpretation
-The business operates across:
-- **Mature markets → stable revenue**
-- **Emerging markets → higher growth potential**
-
-#### Recommendation
-- Balance strategy between **stability and expansion**  
-- Continue optimizing mature markets  
-- Scale emerging markets gradually based on performance
-
----
-
-### 📌 Analysis 2: Profit Efficiency by Market
-
-#### Observation
-Markets with similar revenue levels show different profit margins.
+#### Key Observations
+- High-volume categories contribute **over 40% of total sales** but deliver **below-average margins (~6–8%)**  
+- Smaller categories contribute less revenue (**~15–20%**) but achieve **higher margins (~15%+)**  
+- Growth in some categories is inconsistent, with **short-term spikes followed by margin decline**  
 
 #### Interpretation
-Revenue alone does not reflect performance quality. 
-Profitability is influenced by cost structure and product mix in each market.
+- The current product mix favors **volume over profitability**  
+- Some categories rely on **short-term promotions rather than sustainable demand**  
 
 #### Recommendation
-- Prioritize markets with **strong margin efficiency**  
-- Re-evaluate markets with high revenue but lower profitability  
-- Align market expansion decisions with **profit performance**
+- Prioritize high-margin categories in expansion markets (**especially Canada**)  
+- Reassess pricing strategy for low-margin categories  
+- Align product strategy with **profit contribution, not just sales volume**  
 
----
 
-### 📌 Analysis 3: Sales Contribution Concentration
-
-#### Observation
-A small group of sales agents contributes a large portion of total revenue.
-
-#### Interpretation
-Revenue contribution is unevenly distributed, indicating dependency on a few individuals.
-
-#### Recommendation
-- Improve distribution of sales responsibilities  
-- Reduce reliance on top-performing agents  
-- Standardize sales practices across the team
 ---
 <a id="final-conclusion--recommendations"></a>
 ## 🔎 Final Conclusion & Recommendations
+### 📌 Key Conclusion
 
-### 📌 Final Conclusion
+Market expansion decisions should be based on both **growth and profitability**, not revenue alone.
 
-The business shows a **volume-driven growth pattern**, where increases in sales are not consistently matched by improvements in profitability.
+The analysis highlights clear differences across markets:
 
-Revenue is concentrated in a few **core markets (APAC, EU)** and **key product categories (Phones, Copiers)**, while other markets and products contribute at a smaller scale.  
-At the same time, **profitability varies across both markets and products**, indicating differences in margin efficiency.
-
-In addition, revenue contribution is unevenly distributed across sales agents, and return rate remains a consistent operational factor.
-
-Overall, performance is influenced by:
-- Differences in **market maturity (scale vs growth)**
-- Variability in **product margin efficiency**
-- Concentration across **products and sales contributors**
-
-This suggests that future improvement depends on **optimizing efficiency rather than increasing volume alone**.
+- **Canada** combines steady growth with stable margins  
+- **APAC** shows growth that is not supported by profitability  
+- **US** remains stable but offers limited expansion potential  
 
 ---
 
-## 🚀Recommendations
+### 🎯 Strategic Recommendations
 
-### 🔴 Prioritize Expansion into High-Growth Markets
-## 📌 Recommendations
+1. **Prioritize expansion in Canada**  
+   - Balanced growth and profitability  
+   - More predictable performance  
 
-### 🌍 Market Expansion Strategy
+2. **Stabilize APAC before expansion**  
+   - Improve pricing and reduce excessive discounting  
+   - Strengthen margin performance  
 
-Based on the analysis, expansion should be prioritized in markets that show more consistent performance, while emerging markets should be tested before scaling.
+3. **Optimize the US market**  
+   - Focus on efficiency and margin improvement  
+   - Maintain current scale  
 
-- **Primary Expansion Markets — APAC & EU**  
-  These markets show relatively stable performance across both revenue and profit.  
-  Expansion efforts can focus on scaling existing strengths and improving efficiency.
+4. **Shift focus from revenue to profit quality**  
+   - Use profit margin as a core KPI  
+   - Avoid scaling low-margin growth  
 
-- **Test & Learn Market — Canada**  
-  Canada shows signs of growth potential.  
-  However, performance should be further validated before committing to large-scale expansion.
-
-- **Delayed Expansion — Africa**  
-  Africa generates revenue but profit performance is less consistent.  
-  Expansion should be postponed until profitability becomes more stable.
+5. **Optimize product strategy**  
+   - Promote high-margin categories  
+   - Reduce reliance on low-margin, high-volume products  
 
 ---
 
-This approach helps balance growth opportunities with risk control and resource efficiency.
+### 🚀 Business Impact
 
+By aligning expansion strategy with both growth and profitability:
+
+- The business can avoid scaling inefficient markets  
+- Improve overall profitability without increasing risk  
+- Support long-term, sustainable growth  
 📎 *This project demonstrates how an executive-focused analytics dashboard can support data-driven market expansion and product portfolio optimization decisions.*
