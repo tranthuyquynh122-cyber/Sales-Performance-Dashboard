@@ -22,36 +22,37 @@
 ## 📌 Background & Overview
 ### 📖 What is this project about?
 
-This project analyzes **sales performance and market expansion opportunities** for a global retail business using **Power BI**.
+This project builds a Power BI dashboard using the **Global Superstore Sales dataset**, including transactions (Orders), sales representatives (People), and product returns (Returns).  
 
-The core business question addressed in this project is:
+The objective is to provide senior management with data-driven insights to evaluate **business performance, market efficiency, and growth opportunities**, with a focus on supporting strategic decisions around market expansion and profitability.  
 
-> **Which markets and product categories should the business prioritize to grow sustainably and profitably?**
+The analysis aims to:  
 
-While overall revenue is increasing, the **quality of growth** varies significantly across markets and product categories:
-
-- Profitability differs widely despite similar sales volumes  
-- Strong sales growth does not always translate into higher profit due to margin pressure and product returns  
-- Some fast-growing segments carry higher operational and profitability risks  
-
-This project aims to help decision-makers:
-
-- Understand **where revenue and profit are truly generated**
-- Identify **high-growth but high-risk markets and product segments**
-- Allocate resources more effectively between **volume-driven** and **profit-driven** areas  
-
-✔ **The final output** is an **executive-level Power BI dashboard** that transforms raw sales data into **clear, actionable insights** to support strategic and data-driven decision-making.
+- Assess **current business performance** across markets, products, and sales channels  
+- Identify **which markets deliver sustainable growth vs. revenue driven by low-margin strategies**  
+- Determine **priority markets for expansion** to improve both revenue and ROI  
+- Highlight **strategic product categories** that contribute to long-term performance  
+- Support more **data-driven decision-making** by balancing growth, profitability, and operational efficiency  
 
 ---
 
-### 👤 Who is this project for?
+### 👤 Who is this project for?  
 
-This project is designed for:
+✔️ Data analysts and business analysts seeking actionable and decision-oriented insights  
 
-✔️ Senior Managers & Business Leaders  
-✔️ Business Analysts / Data Analysts  
-✔️ Sales & Strategy Teams  
-✔️ Anyone interested in data-driven business decision making  
+✔️ Marketing and sales teams focusing on product performance and market growth  
+
+✔️ Route-to-market teams aiming to optimize distribution strategies and expand market reach  
+
+---
+
+### ❓ Business Questions  
+
+✔️ What is the current performance of Superstore across markets and product categories?  
+
+✔️ Which markets should Superstore prioritize for expansion to achieve sustainable revenue growth and improved ROI?  
+
+✔️ Which product categories should be prioritized to support long-term business growth?  
 
 ---
 <a id="dataset-description--data-structure"></a>
