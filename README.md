@@ -291,7 +291,24 @@ Expanding into markets without stable profitability may increase sales volume wh
 <a id="final-conclusion--recommendations"></a>
 ## 🔎 Final Conclusion & Recommendations
 
-Based on the insights above, we recommend the **Senior Management / Commercial Strategy Team** to:
+**1. Prioritize expansion in scalable and stable markets**  
+Focus investment on markets that combine a strong revenue base with stable profit margins, as these markets are more likely to deliver predictable and sustainable returns.
+
+**2. Validate high-growth markets before scaling**  
+For markets showing rapid growth but small revenue scale, implement controlled pilot strategies to test demand sustainability, margin behavior, and operational risk before committing large resources.
+
+**3. Align product strategy with market expansion**  
+Prioritize scaling products that consistently generate profit contribution, rather than those that only drive high sales volume, to ensure that growth translates into real financial value.
+
+**4. Address margin instability before expansion**  
+In markets with fluctuating or declining profit margins, review pricing strategies, cost structure, and operational efficiency before increasing sales volume.
+
+**5. Integrate Return Rate into decision-making**  
+Treat Return Rate as a core KPI alongside Sales and Profit, as high return levels can significantly erode profitability when scaling markets or products.
+
+**6. Reduce dependency on concentrated performance drivers**  
+Mitigate reliance on a small number of markets, products, or sales agents by diversifying revenue sources and improving performance distribution.
+
 
 ### 📌 Key Takeaways 
 
