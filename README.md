@@ -275,7 +275,7 @@ This dashboard evaluates market expansion opportunities by comparing revenue gro
 - Across markets and product categories, the analysis indicates that **not all revenue growth translates into profit**, highlighting a structural gap between volume and value creation  
 - Sustainable expansion should therefore be driven by **profitability and margin quality**, rather than revenue growth alone  
 
-## 🎯 Strategic Recommendations
+## 🎯 Recommendations
 
 1. **Prioritize expansion in Canada**
    - Focus investment on markets where growth and profitability are aligned  
